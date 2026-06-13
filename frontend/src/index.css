@@ -224,6 +224,9 @@ table {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 10px 24px rgba(53, 28, 42, 0.06);
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 th,
@@ -351,6 +354,7 @@ tr:last-child td {
 
 @media (max-width: 700px) {
   .topbar {
+    position: static;
     flex-direction: column;
     height: auto;
     padding: 15px 20px;
@@ -363,8 +367,9 @@ tr:last-child td {
   }
 
   .container {
-    margin-top: 180px;
-    padding: 22px;
+    margin-top: 20px;
+    padding: 15px;
+    min-height: calc(100vh - 200px);
   }
 
   .cards,
@@ -376,5 +381,6 @@ tr:last-child td {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
   }
 }
