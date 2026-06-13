@@ -41,13 +41,13 @@ It provides an elegant interface for both **Store Administrators** to manage inv
 Make sure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) installed on your machine.
 
 ### 1. Clone the repository
-\`\`\`bash
+\`\`\`
 git clone https://github.com/your-username/tanvi-boutique.git
 cd tanvi-boutique
 \`\`\`
 
 ### 2. Set up the Backend
-\`\`\`bash
+\`\`\`
 cd backend
 npm install
 \`\`\`
@@ -62,19 +62,19 @@ EMAIL_PASS=your_app_password
 \`\`\`
 
 Start the backend server:
-\`\`\`bash
+\`\`\`
 npm run dev
 \`\`\`
 
 ### 3. Set up the Frontend
 Open a new terminal window/tab:
-\`\`\`bash
+\`\`\`
 cd frontend
 npm install
 \`\`\`
 
 Start the frontend development server:
-\`\`\`bash
+\`\`\`
 npm run dev
 \`\`\`
 
